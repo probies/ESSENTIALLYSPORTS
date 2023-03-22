@@ -8,7 +8,7 @@ function News({ newsList }: any) {
       {
         newsList?.map((news: any, index: number) => {
           return (
-            <NewsCard news={news} key={index} />
+            <NewsCard news={news} index={index} key={index}/>
           )
         })
       }
